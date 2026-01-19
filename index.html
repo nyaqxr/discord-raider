@@ -1,0 +1,199 @@
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>raider</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+ <style>
+/* ===== Console Theme Override ===== */
+
+body {
+  background: #050505;
+  color: #e6e6e6;
+  font-family: Consolas, "Courier New", monospace;
+}
+
+/* Card → Terminal Window */
+.card {
+  background: #000;
+  border-radius: 4px;
+  border: 1px solid #ff3333;
+  box-shadow: 0 0 20px rgba(255,0,0,.25);
+  padding: 20px;
+}
+
+/* Title */
+h2 {
+  color: #ff3333;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+h2::before {
+  content: "$ ";
+  color: #ff6666;
+}
+
+/* Labels = console command */
+label {
+  color: #ff6666;
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+label::before {
+  content: "> ";
+  color: #ff3333;
+}
+
+/* Inputs */
+input,
+textarea {
+  background: #000;
+  border: 1px solid #333;
+  border-radius: 2px;
+  color: #e6e6e6;
+  font-size: 13px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #ff3333;
+  box-shadow: none;
+  outline: none;
+}
+
+/* Toggle → command flag */
+.checkbox-container span::before {
+  content: "--";
+  margin-right: 4px;
+  color: #ff3333;
+}
+
+/* Primary button → EXEC */
+button.primary {
+  background: #000;
+  border: 1px solid #ff3333;
+  color: #ff3333;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 10px;
+  box-shadow: none;
+}
+
+button.primary:hover {
+  background: #ff3333;
+  color: #000;
+}
+
+/* Danger buttons */
+#stopSpam,
+#leaveBtn {
+  background: #000;
+  border: 1px solid #ff3333;
+  color: #ff3333;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+#stopSpam:hover,
+#leaveBtn:hover {
+  background: #ff3333;
+  color: #000;
+}
+
+/* Log = terminal output */
+#log {
+  background: #000;
+  border: 1px solid #333;
+  border-radius: 2px;
+  font-size: 12px;
+  color: #ff4d4d;
+}
+
+/* Fake cursor blink */
+#log::after {
+  content: "█";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+ </style>
+</head>
+<body>
+  <div class="card">
+    <h2>discord raider</h2>
+    <form id="form">
+      <label>token
+        <textarea id="tokens" rows="4" placeholder="Line break"></textarea>
+      </label>
+
+      <label>Guild ID
+        <input type="text" id="guildId" required placeholder="123456789012345678">
+      </label>
+
+      <label>Channel ID
+        <textarea id="channelIds" rows="2" placeholder="123456789012345678,123456789012345678,"></textarea>
+      </label>
+      <button type="button" id="autoFillChannels" class="secondary">auto get</button>
+
+      <label>Spam message
+        <textarea id="message" rows="4" placeholder="Spam message"></textarea>
+      </label>
+
+      <label class="checkbox-container">
+        <input type="checkbox" id="randomize">
+        <span>uuid</span>
+      </label>
+
+      <div class="row">
+        <label>Wait
+          <input type="number" id="delay" min="0" step="0.1" placeholder="0"> second
+        </label>
+        <label>Count
+          <input type="number" id="limit" min="1" step="1" placeholder="0"> cnt
+        </label>
+      </div>
+
+      <details>
+        <summary>Mention</summary>
+        <div class="detail-content">
+          <label>Mention Uid
+            <textarea id="mentionIds" rows="2" placeholder="1234,1234,"></textarea>
+          </label>
+          <button type="button" id="fetchMentions" class="secondary">auto get</button>
+        </div>
+      </details>
+
+      <details>
+        <summary>poll settings</summary>
+        <div class="detail-content">
+          <label>poll title
+            <input type="text" id="pollTitle" placeholder="poll title">
+          </label>
+          <label>poll answer
+            <textarea id="pollAnswers" rows="2" placeholder="a,b"></textarea>
+          </label>
+        </div>
+      </details>
+
+      <button id="submitBtn" type="submit" class="primary" disabled>Spam</button>
+    </form>
+    
+    <div class="button-container">
+      <button id="stopSpam" class="secondary">stop</button>
+      <button id="leaveBtn" class="secondary">leave</button>
+    </div>
+
+    <div id="log"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
