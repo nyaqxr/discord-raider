@@ -1,199 +1,255 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>raider</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
- <style>
-/* ===== Console Theme Override ===== */
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ネカマの集い</title>
 
-body {
-  background: #050505;
-  color: #e6e6e6;
-  font-family: Consolas, "Courier New", monospace;
+<style>
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
 }
 
-/* Card → Terminal Window */
-.card {
-  background: #000;
-  border-radius: 4px;
-  border: 1px solid #ff3333;
-  box-shadow: 0 0 20px rgba(255,0,0,.25);
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg,#f4f6fb,#e9ecf5);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+
+/* ===== Layout ===== */
+.wrapper {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+}
+
+/* ===== Header ===== */
+header {
+  padding-bottom: 16px;
+  border-bottom: 4px solid #000;
+}
+
+header h1 {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+/* ===== Section ===== */
+section {
+  background: rgba(255,255,255,.6);
+  backdrop-filter: blur(12px);
+  border: 2px solid #000;
   padding: 20px;
 }
 
-/* Title */
-h2 {
-  color: #ff3333;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
-
-h2::before {
-  content: "$ ";
-  color: #ff6666;
-}
-
-/* Labels = console command */
+/* ===== Labels ===== */
 label {
-  color: #ff6666;
-  font-size: 12px;
-  margin-top: 14px;
-}
-
-label::before {
-  content: "> ";
-  color: #ff3333;
-}
-
-/* Inputs */
-input,
-textarea {
-  background: #000;
-  border: 1px solid #333;
-  border-radius: 2px;
-  color: #e6e6e6;
+  display: block;
+  margin-bottom: 14px;
   font-size: 13px;
+  font-weight: 600;
 }
 
-input:focus,
-textarea:focus {
-  border-color: #ff3333;
-  box-shadow: none;
-  outline: none;
-}
-
-/* Toggle → command flag */
-.checkbox-container span::before {
-  content: "--";
-  margin-right: 4px;
-  color: #ff3333;
-}
-
-/* Primary button → EXEC */
-button.primary {
-  background: #000;
-  border: 1px solid #ff3333;
-  color: #ff3333;
-  border-radius: 2px;
-  font-size: 14px;
+/* ===== Inputs ===== */
+input,
+textarea,
+select {
+  width: 100%;
+  margin-top: 6px;
   padding: 10px;
-  box-shadow: none;
-}
-
-button.primary:hover {
-  background: #ff3333;
+  font-size: 14px;
+  border: 2px solid #000;
+  background: #fff;
   color: #000;
 }
 
-/* Danger buttons */
-#stopSpam,
-#leaveBtn {
+textarea {
+  resize: vertical;
+}
+
+/* ===== Inline ===== */
+.inline {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ===== Toggle ===== */
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.toggle input {
+  width: 18px;
+  height: 18px;
+}
+
+/* ===== Buttons ===== */
+button {
+  font-size: 14px;
+  padding: 10px 18px;
+  border: 2px solid #000;
   background: #000;
-  border: 1px solid #ff3333;
-  color: #ff3333;
-  border-radius: 2px;
-  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
 }
 
-#stopSpam:hover,
-#leaveBtn:hover {
-  background: #ff3333;
+button:hover {
+  background: #fff;
   color: #000;
 }
 
-/* Log = terminal output */
+/* ===== Actions ===== */
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.danger {
+  background: #c00;
+  border-color: #c00;
+}
+
+.danger:hover {
+  background: #fff;
+  color: #c00;
+}
+
+/* ===== Log ===== */
 #log {
-  background: #000;
-  border: 1px solid #333;
-  border-radius: 2px;
+  min-height: 100px;
+  padding: 12px;
+  background: #fff;
+  border: 2px dashed #000;
+  font-family: monospace;
   font-size: 12px;
-  color: #ff4d4d;
+  white-space: pre-wrap;
 }
 
-/* Fake cursor blink */
-#log::after {
-  content: "█";
-  animation: blink 1s infinite;
+/* ===== Mobile ===== */
+@media (max-width:600px) {
+  header h1 {
+    font-size: 22px;
+  }
 }
-
-@keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
-}
-
- </style>
+</style>
 </head>
+
 <body>
-  <div class="card">
-    <h2>discord raider</h2>
-    <form id="form">
-      <label>token
-        <textarea id="tokens" rows="4" placeholder="Line break"></textarea>
+<div class="wrapper">
+
+  <header>
+    <h1>ネカマの集い</h1>
+  </header>
+
+  <section>
+    <label>
+      トークン
+      <textarea id="tokens" rows="4"></textarea>
+    </label>
+
+    <label>
+      サーバーID
+      <input type="text" id="guildId">
+    </label>
+
+    <label>
+      チャンネルID
+      <textarea id="channelIds" rows="2"></textarea>
+    </label>
+
+    <button type="button">チャンネル自動取得</button>
+  </section>
+
+  <section>
+    <label>
+      メッセージ
+      <textarea id="message" rows="4"></textarea>
+    </label>
+
+    <label>
+      メッセージをランダム化
+      <select id="randomize">
+        <option value="none">なし</option>
+        <option value="uuid">UUID</option>
+        <option value="kanji">漢字</option>
+        <option value="alphanumeric">英数字</option>
+      </select>
+    </label>
+
+    <div class="inline">
+      <label>
+        漢字文字数
+        <input type="number" id="kanjiCount" value="1" min="1">
       </label>
 
-      <label>Guild ID
-        <input type="text" id="guildId" required placeholder="123456789012345678">
+      <label>
+        英数字文字数
+        <input type="number" id="alphanumericCount" value="8" min="1">
       </label>
-
-      <label>Channel ID
-        <textarea id="channelIds" rows="2" placeholder="123456789012345678,123456789012345678,"></textarea>
-      </label>
-      <button type="button" id="autoFillChannels" class="secondary">auto get</button>
-
-      <label>Spam message
-        <textarea id="message" rows="4" placeholder="Spam message"></textarea>
-      </label>
-
-      <label class="checkbox-container">
-        <input type="checkbox" id="randomize">
-        <span>uuid</span>
-      </label>
-
-      <div class="row">
-        <label>Wait
-          <input type="number" id="delay" min="0" step="0.1" placeholder="0"> second
-        </label>
-        <label>Count
-          <input type="number" id="limit" min="1" step="1" placeholder="0"> cnt
-        </label>
-      </div>
-
-      <details>
-        <summary>Mention</summary>
-        <div class="detail-content">
-          <label>Mention Uid
-            <textarea id="mentionIds" rows="2" placeholder="1234,1234,"></textarea>
-          </label>
-          <button type="button" id="fetchMentions" class="secondary">auto get</button>
-        </div>
-      </details>
-
-      <details>
-        <summary>poll settings</summary>
-        <div class="detail-content">
-          <label>poll title
-            <input type="text" id="pollTitle" placeholder="poll title">
-          </label>
-          <label>poll answer
-            <textarea id="pollAnswers" rows="2" placeholder="a,b"></textarea>
-          </label>
-        </div>
-      </details>
-
-      <button id="submitBtn" type="submit" class="primary" disabled>Spam</button>
-    </form>
-    
-    <div class="button-container">
-      <button id="stopSpam" class="secondary">stop</button>
-      <button id="leaveBtn" class="secondary">leave</button>
     </div>
 
-    <div id="log"></div>
-  </div>
+    <div class="inline">
+      <label>
+        送信間隔（秒）
+        <input type="number">
+      </label>
 
-  <script src="script.js"></script>
+      <label>
+        上限回数
+        <input type="number">
+      </label>
+    </div>
+  </section>
+
+  <section>
+    <label>
+      メンションID
+      <textarea rows="2"></textarea>
+    </label>
+
+    <label>
+      投票タイトル
+      <input type="text">
+    </label>
+
+    <label>
+      投票選択肢
+      <textarea rows="2"></textarea>
+    </label>
+
+    <label>
+      転送メッセージURL
+      <input type="text">
+    </label>
+  </section>
+
+  <section class="actions">
+    <button>実行</button>
+    <button class="danger">スパム停止</button>
+    <button class="danger">サーバー退出</button>
+  </section>
+
+  <section>
+    <div id="log"></div>
+  </section>
+
+</div>
 </body>
 </html>
