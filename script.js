@@ -48,9 +48,9 @@ const tokensInput = document['getElementById'](_0x44a41d(0x14f))
   , pollAnswersInput = document[_0x44a41d(0x14b)]('pollAnswers')
   , forwardUrlInput = document[_0x44a41d(0x14b)](_0x44a41d(0x176))
   , autoFillBtn = document['getElementById'](_0x44a41d(0x128))
-  , fetchMentionsBtn = document[_0x44a41d(0x14b)](_0x44a41d(0x180))
+  , fetchMentionsBtn = document[_0x44a41d(0x14b)]('fetchMentions')
   , submitBtn = document['getElementById']('submitBtn')
-  , stopBtn = document[_0x44a41d(0x14b)](_0x44a41d(0x165))
+  , stopBtn = document[_0x44a41d(0x14b)]('stopSpam')
   , leaveBtn = document[_0x44a41d(0x14b)](_0x44a41d(0x17b))
   , form = document[_0x44a41d(0x14b)](_0x44a41d(0x14c));
 function sleep(_0x52b65b) {
