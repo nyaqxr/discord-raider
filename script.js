@@ -33,6 +33,8 @@ function appendLog(_0x31a84c) {
 function clearLog() {
     logEl['textContent'] = '';
 }
+
+document.addEventListener('DOMContentLoaded', () => {
 let shouldStopSpam = ![];
 const tokensInput = document['getElementById'](_0x44a41d(0x14f))
   , guildInput = document['getElementById'](_0x44a41d(0x16c))
@@ -590,3 +592,4 @@ leaveBtn[_0x44a41d(0x143)]('click', async () => {
     submitBtn[_0x1f950f(0x121)] = '実行';
 }
 );
+});
