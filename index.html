@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ネカマの集い</title>
-
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ネカマの集い</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
 /* ===== Base ===== */
 * {
   box-sizing: border-box;
@@ -158,6 +158,8 @@ button:hover {
     <h1>ネカマの集い</h1>
   </header>
 
+  <form id="form">
+
   <section>
     <label>
       トークン
@@ -174,7 +176,7 @@ button:hover {
       <textarea id="channelIds" rows="2"></textarea>
     </label>
 
-    <button type="button">チャンネル自動取得</button>
+    <button type="button" id="autoFillChannels">チャンネル自動取得</button>
   </section>
 
   <section>
@@ -208,12 +210,12 @@ button:hover {
     <div class="inline">
       <label>
         送信間隔（秒）
-        <input type="number">
+        <input type="number" id="delay">
       </label>
 
       <label>
         上限回数
-        <input type="number">
+        <input type="number" id="limit">
       </label>
     </div>
   </section>
@@ -221,35 +223,37 @@ button:hover {
   <section>
     <label>
       メンションID
-      <textarea rows="2"></textarea>
+      <textarea id="mentionIds" rows="2"></textarea>
     </label>
 
     <label>
       投票タイトル
-      <input type="text">
+      <input type="text" id="pollTitle">
     </label>
 
     <label>
       投票選択肢
-      <textarea rows="2"></textarea>
+      <textarea id="pollAnswers" rows="2"></textarea>
     </label>
 
     <label>
       転送メッセージURL
-      <input type="text">
+      <input type="text" id="forwardMessageUrl">
     </label>
   </section>
 
   <section class="actions">
-    <button>実行</button>
-    <button class="danger">スパム停止</button>
-    <button class="danger">サーバー退出</button>
+    <button type="submit" id="submitBtn">実行</button>
+    <button type="button" class="danger" id="stopBtn">スパム停止</button>
+    <button type="button" class="danger" id="leaveBtn">サーバー退出</button>
   </section>
 
   <section>
     <div id="log"></div>
   </section>
 
+  </form>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
