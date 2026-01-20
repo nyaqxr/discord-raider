@@ -1,6 +1,6 @@
 const _0x44a41d = _0x9189;
 function _0x480e() {
-    const _0x27d981 = ['data', 'Spaming...', 'addEventListener', '*****\x20-\x20送信エラー(', 'close', 'wss://gateway.discord.gg/?v=9&encoding=json', 'https://discord.com/api/v9/guilds/', '222923NHWZwx', 'join', '✅\x20指定数に達しました（メッセージ）', 'getElementById', 'form', 'click', '⚠️\x20サーバーIDを入力してください', 'tokens', 'filter', 'POST', '18HjiWDv', 'classList', 'onmessage', 'INVALID_SESSION', '4431060gOHPgd', 'splice', ')\x20最大リトライ回数に達しました。', '⚠️\x20チャンネルIDを入力してください', 'value', 'scrollHeight', 'slice', '/messages', '1746QLsTrr', 'messageId', 'limit', 'add', '⚠️\x20メッセージ内容または転送URLを入力してください', '⚠️\x20無効な転送URLです', '❌\x20[メッセージ]\x20利用可能なチャンネル無し:\x20', 'stopSpam', 'length', '✅\x20メンション取得完了', 'fromEntries', '✅\x20認証完了:\x20', '❌\x20認証失敗:\x20', 'push', 'guildId', '✅\x20指定数に達しました（転送）', 'floor', '⚠️\x20トークンを入力してください', '*****\x20-\x20レート制限:\x20', '6yQsnWi', 'send', 'type', '詳細不明', '*****\x20-\x20メッセージ送信成功', 'forwardMessageUrl', 'randomMentions', 'checked', 'match', '/channels', 'leaveBtn', 'https://discord.com/api/v9/users/@me/guilds/', 'no-referrer', '⏳\x20\x20', 'disabled', 'fetchMentions', 'permissions', 'eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiaGFzX2NsaWVudF9tb2RzIjpmYWxzZSwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzNC4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiYnJvd3Nlcl92ZXJzaW9uIjoiMTM0LjAuMC4wIiwib3NfdmVyc2lvbiI6IjEwIiwicmVmZXJyZXIiOiJodHRwczovL2Rpc2NvcmQuY29tIiwicmVmZXJyaW5nX2RvbWFpbiI6ImRpc2NvcmQuY29tIiwicmVmZXJyZXJfY3VycmVudCI6IiIsInJlZmVycmluZ19kb21haW5fY3VycmVudCI6IiIsInJlbGVhc2VfY2hhbm5lbCI6InN0YWJsZSIsImNsaWVudF9idWlsZF9udW1iZXIiOjM4NDg4NywiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0=', 'チャンネルが見つかりません', 'ops', '✅\x20完了', 'input', 'onerror', '*****\x20-\x20転送エラー(', 'Discord', 'READY', 'split', '3429937ZTWzIb', 'parse', '63352DcIrRl', '⚠️\x20', 'Windows', '3162731rFAiVn', 'trim', 'channelId', 'stringify', 'remove', '*****', '150zoTdRw', 'status', '\x20|\x20再試行中...', 'toLocaleTimeString', '):\x20', 'onclose', 'all', 'loading', 'onopen', 'member', 'textContent', 'content', 'permission_overwrites', 'application/json', 'randomUUID', 'message', 'pollTitle', 'autoFillChannels', '\x20-\x20', 'delay', 'GUILD_MEMBER_LIST_UPDATE', '*****\x20-\x20退出失敗(', 'unknown', '❌\x20WebSocket\x20エラー:\x20', 'メンションが見つかりません', 'retry_after', 'json', 'allow', '❌\x20WebSocketエラー', 'mentionIds', 'random', 'poll', '❌\x20トークン(', '*****\x20-\x20エラー:\x20', '*****\x20-\x20エラー：', 'https://discord.com/api/v9/channels/', '/roles', '106975uJSaBv', '644348GhyWfB', ')\x20最大リトライ回数に達しました', 'randomize', 'map'];
+    const _0x27d981 = ['data', '実行中...', 'addEventListener', '*****\x20-\x20送信エラー(', 'close', 'wss://gateway.discord.gg/?v=9&encoding=json', 'https://discord.com/api/v9/guilds/', '222923NHWZwx', 'join', '✅\x20指定数に達しました（メッセージ）', 'getElementById', 'form', 'click', '⚠️\x20サーバーIDを入力してください', 'tokens', 'filter', 'POST', '18HjiWDv', 'classList', 'onmessage', 'INVALID_SESSION', '4431060gOHPgd', 'splice', ')\x20最大リトライ回数に達しました。', '⚠️\x20チャンネルIDを入力してください', 'value', 'scrollHeight', 'slice', '/messages', '1746QLsTrr', 'messageId', 'limit', 'add', '⚠️\x20メッセージ内容または転送URLを入力してください', '⚠️\x20無効な転送URLです', '❌\x20[メッセージ]\x20利用可能なチャンネル無し:\x20', 'stopSpam', 'length', '✅\x20メンション取得完了', 'fromEntries', '✅\x20認証完了:\x20', '❌\x20認証失敗:\x20', 'push', 'guildId', '✅\x20指定数に達しました（転送）', 'floor', '⚠️\x20トークンを入力してください', '*****\x20-\x20レート制限:\x20', '6yQsnWi', 'send', 'type', '詳細不明', '*****\x20-\x20メッセージ送信成功', 'forwardMessageUrl', 'randomMentions', 'checked', 'match', '/channels', 'leaveBtn', 'https://discord.com/api/v9/users/@me/guilds/', 'no-referrer', '⏳\x20\x20', 'disabled', 'fetchMentions', 'permissions', 'eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiQ2hyb21lIiwiZGV2aWNlIjoiIiwic3lzdGVtX2xvY2FsZSI6ImVuLVVTIiwiaGFzX2NsaWVudF9tb2RzIjpmYWxzZSwiYnJvd3Nlcl91c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzNC4wLjAuMCBTYWZhcmkvNTM3LjM2IiwiYnJvd3Nlcl92ZXJzaW9uIjoiMTM0LjAuMC4wIiwib3NfdmVyc2lvbiI6IjEwIiwicmVmZXJyZXIiOiJodHRwczovL2Rpc2NvcmQuY29tIiwicmVmZXJyaW5nX2RvbWFpbiI6ImRpc2NvcmQuY29tIiwicmVmZXJyZXJfY3VycmVudCI6IiIsInJlZmVycmluZ19kb21haW5fY3VycmVudCI6IiIsInJlbGVhc2VfY2hhbm5lbCI6InN0YWJsZSIsImNsaWVudF9idWlsZF9udW1iZXIiOjM4NDg4NywiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0=', 'チャンネルが見つかりません', 'ops', '✅\x20完了', 'input', 'onerror', '*****\x20-\x20転送エラー(', 'Discord', 'READY', 'split', '3429937ZTWzIb', 'parse', '63352DcIrRl', '⚠️\x20', 'Windows', '3162731rFAiVn', 'trim', 'channelId', 'stringify', 'remove', '*****', '150zoTdRw', 'status', '\x20|\x20再試行中...', 'toLocaleTimeString', '):\x20', 'onclose', 'all', 'loading', 'onopen', 'member', 'textContent', 'content', 'permission_overwrites', 'application/json', 'randomUUID', 'message', 'pollTitle', 'autoFillChannels', '\x20-\x20', 'delay', 'GUILD_MEMBER_LIST_UPDATE', '*****\x20-\x20退出失敗(', 'unknown', '❌\x20WebSocket\x20エラー:\x20', 'メンションが見つかりません', 'retry_after', 'json', 'allow', '❌\x20WebSocketエラー', 'mentionIds', 'random', 'poll', '❌\x20トークン(', '*****\x20-\x20エラー:\x20', '*****\x20-\x20エラー：', 'https://discord.com/api/v9/channels/', '/roles', '106975uJSaBv', '644348GhyWfB', ')\x20最大リトライ回数に達しました', 'randomize', 'map'];
     _0x480e = function() {
         return _0x27d981;
     }
@@ -38,7 +38,9 @@ const tokensInput = document['getElementById'](_0x44a41d(0x14f))
   , guildInput = document['getElementById'](_0x44a41d(0x16c))
   , channelInput = document[_0x44a41d(0x14b)]('channelIds')
   , messageInput = document[_0x44a41d(0x14b)]('message')
-  , randomizeCheckbox = document[_0x44a41d(0x14b)]('randomize')
+  , randomizeSelect = document[_0x44a41d(0x14b)]('randomize')
+  , kanjiCountInput = document[_0x44a41d(0x14b)]('kanjiCount')
+  , alphanumericCountInput = document[_0x44a41d(0x14b)]('alphanumericCount')
   , delayInput = document[_0x44a41d(0x14b)](_0x44a41d(0x12a))
   , limitInput = document[_0x44a41d(0x14b)](_0x44a41d(0x160))
   , mentionInput = document[_0x44a41d(0x14b)](_0x44a41d(0x134))
@@ -58,6 +60,23 @@ function parseList(_0x4289cc) {
     const _0x332f84 = _0x44a41d
       , _0x516ec2 = _0x4289cc[_0x332f84(0x18b)](/[\s,]+/)[_0x332f84(0x140)](_0x466768 => _0x466768[_0x332f84(0x192)]())['filter'](_0xc801b2 => _0xc801b2);
     return [...new Set(_0x516ec2)];
+}
+function getRandomKanji(count = 1) {
+    const kanjiList = ['亜', '以', '衣', '位', '印', '英', '栄', '円', '延', '縁', '援', '演', '遠', '鉛', '艶', '汚', '欧', '殴', '億', '憶', '温', '穏', '音', '下', '化', '火', '仮', '何', '伽', '価', '佳', '加', '可', '嘉', '夏', '家', '寡', '科', '暇', '禍', '稼', '課', '嫁', '歌', '河', '禍', '靴', '課', '夏', '家', '嫌', '管', '看', '監', '缶', '肝', '艦', '感', '慣', '款', '間', '閣', '隔', '革', '学', '岳', '楽', '監', '紀', '規', '記', '起', '基', '機', '希', '希', '紀', '喜', '吸', '祈', '軌', '既', '飢', '鬼', '亀', '議', '技', '宜', '義', '義', '行', '銀', '金', '吟', '銀', '欣', '衿', '襟', '均', '紅', '共', '兇', '凶', '協', '叫', '狂', '京', '強', '恐', '教', '郷', '響', '驚', '仰', '暁', '業', '極', '曲', '局', '朽', '窮', '糾', '給', '旧', '牛', '去', '居', '距', '裾', '挙', '拒', '据', '巨', '居', '局', '距', '遠', '鱗', '禁', '区', '句', '去', '局', '据', '巨', '居', '除', '虚', '許', '距', '矩', '躯', '屈', '掘', '窟', '沓', '靴', '苦', '句', '功', '工', '攻', '孔', '恒', '好', '孝', '幸', '光', '広', '香', '高', '康', '弘', '隆', '国', '穀', '骨', '困', '恨', '昆', '根', '婚', '混', '紺', '魂'];
+    let result = '';
+    for (let i = 0; i < count; i++) {
+        const randomIndex = Math[_0x44a41d(0x16e)](Math[_0x44a41d(0x135)]() * kanjiList['length']);
+        result += kanjiList[randomIndex];
+    }
+    return result;
+}
+function getRandomAlphanumeric(count = 8) {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < count; i++) {
+        result += chars[Math[_0x44a41d(0x16e)](Math[_0x44a41d(0x135)]() * chars['length'])];
+    }
+    return result;
 }
 function parseMessageUrl(_0x4f3880) {
     const _0x267d17 = _0x44a41d;
@@ -87,9 +106,9 @@ async function leaveGuild(_0x17e5c6, _0x5d6f21) {
         'referrerPolicy': 'no-referrer'
     });
     if (_0x36d518[_0x300676(0x118)] === 0xcc)
-        appendLog('[+] Leaved! -> \x20' + _0x17e5c6[_0x300676(0x15c)](0x0, 0xa) + _0x300676(0x116));
+        appendLog('✅\x20退出成功:\x20' + _0x17e5c6[_0x300676(0x15c)](0x0, 0xa) + _0x300676(0x116));
     else
-        appendLog('[-]\x20' + _0x17e5c6[_0x300676(0x15c)](0x0, 0xa) + _0x300676(0x12c) + JSON[_0x300676(0x194)](await _0x36d518['json']()) + ')');
+        appendLog('❌\x20' + _0x17e5c6[_0x300676(0x15c)](0x0, 0xa) + _0x300676(0x12c) + JSON[_0x300676(0x194)](await _0x36d518['json']()) + ')');
 }
 autoFillBtn[_0x44a41d(0x143)](_0x44a41d(0x14d), async () => {
     const _0x36ee04 = _0x44a41d;
@@ -128,9 +147,9 @@ autoFillBtn[_0x44a41d(0x143)](_0x44a41d(0x14d), async () => {
         if (!_0x4e915b[_0x36ee04(0x166)])
             return appendLog(_0x36ee04(0x183));
         channelInput[_0x36ee04(0x15a)] = _0x4e915b[_0x36ee04(0x140)](_0x2fbebc => _0x2fbebc['id'])[_0x36ee04(0x149)](','),
-        appendLog('[+]' + _0x4e915b[_0x36ee04(0x166)] + '\x20Retrieved the channels');
+        appendLog('✅\x20' + _0x4e915b[_0x36ee04(0x166)] + '\x20件のチャンネルを取得（管理者専用を除外）');
     } catch (_0x4b3d48) {
-        appendLog("[-] " + _0x4df7c7[0x0][_0x36ee04(0x15c)](0x0, 0xa) + _0x36ee04(0x139) + _0x4b3d48[_0x36ee04(0x126)]);
+        appendLog('❌\x20' + _0x4df7c7[0x0][_0x36ee04(0x15c)](0x0, 0xa) + _0x36ee04(0x139) + _0x4b3d48[_0x36ee04(0x126)]);
     }
 }
 );
@@ -234,14 +253,25 @@ async function sendMessage(_0x37568b, _0x368958, _0x2ce323, _0x3da13c={}) {
     let _0x53bdde = {
         'content': _0x2ce323 || ''
     };
-    if (_0x3da13c[_0x73e921(0x13f)])
-        _0x53bdde[_0x73e921(0x122)] += '\x0a' + crypto[_0x73e921(0x125)]();
-    if (_0x3da13c['allmention'])
-        _0x53bdde[_0x73e921(0x122)] = '@everyone\x0a' + _0x53bdde[_0x73e921(0x122)];
-    if (_0x3da13c['randomMentions']) {
-    const _0x1ff0ba = _0x3da13c[_0x73e921(0x177)][Math[_0x73e921(0x16e)](Math[_0x73e921(0x135)]() * _0x3da13c[_0x73e921(0x177)][_0x73e921(0x166)])];
-    _0x53bdde[_0x73e921(0x122)] = _0x53bdde[_0x73e921(0x122)] + '\n<@' + _0x1ff0ba + '>';
-}
+    if (_0x3da13c[_0x73e921(0x13f)] && _0x3da13c[_0x73e921(0x13f)] !== 'none') {
+        let randomValue = '';
+        if (_0x3da13c[_0x73e921(0x13f)] === 'uuid')
+            randomValue = crypto[_0x73e921(0x125)]();
+        else if (_0x3da13c[_0x73e921(0x13f)] === 'kanji')
+            randomValue = getRandomKanji(_0x3da13c['kanjiCount']);
+        else if (_0x3da13c[_0x73e921(0x13f)] === 'alphanumeric')
+            randomValue = getRandomAlphanumeric(_0x3da13c['alphanumericCount']);
+        
+        if (_0x3da13c['randomMentions']) {
+            const _0x1ff0ba = _0x3da13c[_0x73e921(0x177)][Math[_0x73e921(0x16e)](Math[_0x73e921(0x135)]() * _0x3da13c[_0x73e921(0x177)][_0x73e921(0x166)])];
+            _0x53bdde[_0x73e921(0x122)] = _0x53bdde[_0x73e921(0x122)] + '\n<@' + _0x1ff0ba + ' ' + randomValue;
+        } else {
+            _0x53bdde[_0x73e921(0x122)] += '\x0a' + randomValue;
+        }
+    } else if (_0x3da13c['randomMentions']) {
+        const _0x1ff0ba = _0x3da13c[_0x73e921(0x177)][Math[_0x73e921(0x16e)](Math[_0x73e921(0x135)]() * _0x3da13c[_0x73e921(0x177)][_0x73e921(0x166)])];
+        _0x53bdde[_0x73e921(0x122)] = _0x53bdde[_0x73e921(0x122)] + '\n<@' + _0x1ff0ba + '>';
+    }
     if (_0x3da13c[_0x73e921(0x127)] && _0x3da13c['pollAnswers'])
         _0x53bdde[_0x73e921(0x136)] = {
             'question': {
@@ -345,7 +375,7 @@ async function sendMessageWithRetry(_0x590ce6, _0x53ee27, _0x44ffac, _0x52c42f={
         try {
             const _0x583f51 = await sendMessage(_0x590ce6, _0x53ee27, _0x44ffac, _0x52c42f);
             if (_0x583f51['ok'])
-                return appendLog('[+] ' + _0x590ce6['slice'](0x0, 0xa) + _0x45473d(0x175)),
+                return appendLog('✅\x20' + _0x590ce6['slice'](0x0, 0xa) + _0x45473d(0x175)),
                 !![];
             else {
                 if (_0x583f51[_0x45473d(0x118)] === 0x1ad) {
@@ -356,13 +386,13 @@ async function sendMessageWithRetry(_0x590ce6, _0x53ee27, _0x44ffac, _0x52c42f={
                 } else {
                     if (_0x583f51[_0x45473d(0x118)] === 0x190) {
                         const _0x42b22d = await _0x583f51[_0x45473d(0x131)]();
-                        appendLog('[-] ' + _0x590ce6['slice'](0x0, 0xa) + '*****\x20-\x20Error -> ' + _0x583f51[_0x45473d(0x118)] + _0x45473d(0x11b) + (JSON[_0x45473d(0x194)](_0x42b22d) || _0x45473d(0x174))),
+                        appendLog('❌\x20' + _0x590ce6['slice'](0x0, 0xa) + '*****\x20-\x20送信エラー(' + _0x583f51[_0x45473d(0x118)] + _0x45473d(0x11b) + (JSON[_0x45473d(0x194)](_0x42b22d) || _0x45473d(0x174))),
                         authtest = await authenticateOnly(_0x590ce6);
                         if (!authtest)
                             return ![];
                     } else {
                         const _0x21e8aa = await _0x583f51[_0x45473d(0x131)]();
-                        return appendLog('[-]' + _0x590ce6[_0x45473d(0x15c)](0x0, 0xa) + _0x45473d(0x144) + _0x583f51[_0x45473d(0x118)] + _0x45473d(0x11b) + (JSON['stringify'](_0x21e8aa) || _0x45473d(0x174))),
+                        return appendLog('❌\x20' + _0x590ce6[_0x45473d(0x15c)](0x0, 0xa) + _0x45473d(0x144) + _0x583f51[_0x45473d(0x118)] + _0x45473d(0x11b) + (JSON['stringify'](_0x21e8aa) || _0x45473d(0x174))),
                         ![];
                     }
                 }
@@ -383,7 +413,7 @@ async function forwardMessageWithRetry(_0x8f6dbe, _0x34e0e4, _0x4c0469, _0x48f73
         try {
             const _0x4e951f = await forwardMessage(_0x8f6dbe, _0x34e0e4, _0x4c0469);
             if (_0x4e951f['ok'])
-                return appendLog('[+]' + _0x8f6dbe[_0x25e157(0x15c)](0x0, 0xa) + '*****\x20-\x20メッセージ転送成功'),
+                return appendLog('✅\x20' + _0x8f6dbe[_0x25e157(0x15c)](0x0, 0xa) + '*****\x20-\x20メッセージ転送成功'),
                 !![];
             else {
                 if (_0x4e951f[_0x25e157(0x118)] === 0x1ad) {
@@ -394,13 +424,13 @@ async function forwardMessageWithRetry(_0x8f6dbe, _0x34e0e4, _0x4c0469, _0x48f73
                 } else {
                     if (_0x4e951f[_0x25e157(0x118)] === 0x190) {
                         const _0x416f42 = await _0x4e951f['json']();
-                        appendLog('[-]' + _0x8f6dbe[_0x25e157(0x15c)](0x0, 0xa) + _0x25e157(0x188) + _0x4e951f[_0x25e157(0x118)] + _0x25e157(0x11b) + (JSON[_0x25e157(0x194)](_0x416f42) || _0x25e157(0x174))),
+                        appendLog('❌\x20' + _0x8f6dbe[_0x25e157(0x15c)](0x0, 0xa) + _0x25e157(0x188) + _0x4e951f[_0x25e157(0x118)] + _0x25e157(0x11b) + (JSON[_0x25e157(0x194)](_0x416f42) || _0x25e157(0x174))),
                         authtest = await authenticateOnly(_0x8f6dbe);
                         if (!authtest)
                             return ![];
                     } else {
                         const _0x4523b8 = await _0x4e951f['json']();
-                        return appendLog('[-]' + _0x8f6dbe[_0x25e157(0x15c)](0x0, 0xa) + _0x25e157(0x188) + _0x4e951f[_0x25e157(0x118)] + _0x25e157(0x11b) + (JSON[_0x25e157(0x194)](_0x4523b8) || _0x25e157(0x174))),
+                        return appendLog('❌\x20' + _0x8f6dbe[_0x25e157(0x15c)](0x0, 0xa) + _0x25e157(0x188) + _0x4e951f[_0x25e157(0x118)] + _0x25e157(0x11b) + (JSON[_0x25e157(0x194)](_0x4523b8) || _0x25e157(0x174))),
                         ![];
                     }
                 }
@@ -411,7 +441,7 @@ async function forwardMessageWithRetry(_0x8f6dbe, _0x34e0e4, _0x4c0469, _0x48f73
             _0x2da07b++;
         }
     }
-    return appendLog('[-] Token ->' + _0x8f6dbe['slice'](0x0, 0xa) + _0x25e157(0x158)),
+    return appendLog('❌\x20トークン(' + _0x8f6dbe['slice'](0x0, 0xa) + _0x25e157(0x158)),
     ![];
 }
 function checkFormValidity() {
@@ -444,7 +474,7 @@ form['addEventListener']('submit', async _0x44e06e => {
     const _0x4f93c2 = parseList(tokensInput['value'])
       , _0x58b4f9 = guildInput[_0x443816(0x15a)][_0x443816(0x192)]()
       , _0x23cad6 = parseList(channelInput[_0x443816(0x15a)])
-      , _0x36a7dc = randomizeCheckbox[_0x443816(0x178)]
+      , _0x36a7dc = randomizeSelect[_0x443816(0x15a)]
       , _0x353620 = parseFloat(delayInput['value']) || 0x0
       , _0x420d1a = limitInput[_0x443816(0x15a)][_0x443816(0x192)]() ? parseInt(limitInput[_0x443816(0x15a)]) : Infinity
       , _0xba2566 = mentionInput[_0x443816(0x15a)][_0x443816(0x192)]() ? parseList(mentionInput[_0x443816(0x15a)]) : null
@@ -504,6 +534,8 @@ form['addEventListener']('submit', async _0x44e06e => {
                     const _0x52e801 = _0x2d482e[_0x3327b4]
                       , _0x60fbaa = await sendMessageWithRetry(_0x62d982, _0x52e801, _0x4787d5, {
                         'randomize': _0x36a7dc,
+                        'kanjiCount': parseInt(kanjiCountInput['value']) || 1,
+                        'alphanumericCount': parseInt(alphanumericCountInput['value']) || 8,
                         'randomMentions': _0xba2566,
                         'pollTitle': _0x16efe1,
                         'pollAnswers': _0x1a3644
@@ -533,7 +565,7 @@ form['addEventListener']('submit', async _0x44e06e => {
 stopBtn[_0x44a41d(0x143)]('click', () => {
     const _0x2ab0f0 = _0x44a41d;
     shouldStopSpam = !![],
-    appendLog('stoping'),
+    appendLog('🛑\x20スパムを停止します...'),
     submitBtn[_0x2ab0f0(0x17f)] = ![],
     submitBtn[_0x2ab0f0(0x153)][_0x2ab0f0(0x115)](_0x2ab0f0(0x11e)),
     submitBtn[_0x2ab0f0(0x121)] = '実行';
@@ -543,16 +575,16 @@ leaveBtn[_0x44a41d(0x143)]('click', async () => {
     const _0x1f950f = _0x44a41d;
     shouldStopSpam = !![],
     stopBtn[_0x1f950f(0x17f)] = !![],
-    appendLog('stoping');
+    appendLog('🛑\x20スパムを停止します...');
     const _0x3e081f = parseList(tokensInput[_0x1f950f(0x15a)])
       , _0x5e7c51 = guildInput[_0x1f950f(0x15a)]['trim']();
     if (!_0x3e081f['length'])
-        return appendLog('not token');
+        return appendLog('⚠️\x20トークンを入力してください');
     if (!_0x5e7c51)
         return appendLog(_0x1f950f(0x14e));
     for (const _0x5383ec of _0x3e081f)
         await leaveGuild(_0x5383ec, _0x5e7c51);
-    appendLog('[+] Leaved '),
+    appendLog('✅\x20退出処理完了'),
     submitBtn[_0x1f950f(0x17f)] = ![],
     submitBtn[_0x1f950f(0x153)]['remove']('loading'),
     submitBtn[_0x1f950f(0x121)] = '実行';
